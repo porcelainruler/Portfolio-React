@@ -1434,8 +1434,9 @@ body.offcanvas {
   display: flex;
   flex-direction: row;
   flex-flow: row;
+  flex-wrap: wrap;
   align-self: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .skill-name {
@@ -1443,6 +1444,8 @@ body.offcanvas {
   padding: 4px;
   padding-left: 6px;
   padding-right: 6px;
+  margin-right: 8px;
+  margin-top: 8px;
   width: fit-content;
   border-style: solid;
   border-width: 2px;
